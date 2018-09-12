@@ -17,7 +17,7 @@ def key_for_min_value(name_hash)
      
       if numbers[i] < numbers[-1]
         numbers.pop()
-      elsif numbers[i] > numbers{-1]
+      elsif numbers[i] > numbers[-1]
         numbers.shift()
       end
       i += 1
